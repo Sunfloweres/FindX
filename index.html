@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta    name="viewport"content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <link rel="stylesheet" href="css/reset.css"  charset="utf-8">
+        <link rel="stylesheet" href="css/index.css"  charset="utf-8">
+        <title></title>
+
+        <script type="text/javascript">
+            (function(){
+                var resizeEvent =  'orientationchange' in window ? 'orientationchange' :'resize';
+                var rescale = function(){
+                    document.documentElement.style.fontSize = document.documentElement.clientWidth / 320 * 20 +'px';
+                }
+                window.addEventListener(resizeEvent,rescale,false);
+                document.addEventListener('DOMContentLoaded',rescale,false);
+            })();
+        </script>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="automusic">
+                <audio id="audio" src="media/bg_music.mp3" loop="true" preload autoplay="autoplay" srt>
+                </audio>
+                <audio id="audio1" src="" loop="true" preload autoplay="autoplay" srt>
+                </audio>
+                <img id="music_on" src="imgs/music_on.png" alt="" />
+                <img id="music_off" src="imgs/music_off.png" alt="" />
+            </div>
+            <div class="page"id="pages0"style="display:block">
+                <div class="box">
+                    <img src="imgs/loading_txt.png" alt="" />
+                </div>
+            </div>
+            <div class="page"id="pages1"style="display:none">
+                <div class="info">
+                    <div class="img1" >
+                        <img src="imgs/star2.png" alt="" />
+                    </div>
+                    <div class="img2">
+                        <img src="imgs/star3.png" alt="" />
+                    </div>
+                    <div class="img3">
+                        <img src="imgs/star4.png" alt="" />
+                    </div>
+                    <div class="img4">
+                        <img  src="imgs/star5.png" alt="" />
+                    </div>
+                    <div class="text">
+                        <p>公元9025年</p>
+                        <p>外星人为了争夺</p>
+                        <p>封印在vivo手机中的神秘能量</p>
+                        <p>发起宇宙战乱</p>
+                        <p>超人徐峥为了保卫神秘能量</p>
+                        <p>带着手机来到浩瀚宇宙中</p>
+                        <p>分身成为8个自己</p>
+                        <p>分别保卫8块手机碎片</p>
+                        <p>消失在太阳系的八大行星中</p>
+                        <p>据说找齐徐峥的8个分身</p>
+                        <p>就能启动神秘能量保护地球</p>
+                        <p>...</p>
+                    </div>
+                    <div class="vivomove">
+                    <img src="imgs/super_body1.png" alt="" id="yifu"/>
+                    <img src="imgs/super_glasses.png" alt="" id="yanjing"/>
+                    <img src="imgs/super_head.png" alt="" id="head" />
+                    </div>
+                    <div class="phone">
+                        <img src="imgs/phone.png" alt="" />
+                    </div>
+                    <!-- 手机拼图 -->
+               <div class="suipian">
+                   <div class="sp1">
+                       <img src="imgs/chip1.png" alt="" />
+                       <img class="head1"src="imgs/super_head.png" alt="" />
+                   </div>
+                   <div class="sp2">
+                       <img src="imgs/chip2.png" alt="" />
+                       <img class="head1"src="imgs/super_head.png" alt="" />
+                   </div>
+                   <div class="sp3">
+                       <img src="imgs/chip3.png" alt="" />
+                       <img class="head1"src="imgs/super_head.png" alt="" />
+                   </div>
+                   <div class="sp4">
+                       <img src="imgs/chip4.png" alt="" />
+                       <img class="head1"src="imgs/super_head.png" alt="" />
+                   </div> -->
+                  <div class="sp5">
+                       <img src="imgs/chip5.png" alt="" />
+                       <img class="head1"src="imgs/super_head.png" alt="" />
+                   </div>
+                   <div class="sp6">
+                       <img src="imgs/chip6.png" alt="" />
+                       <img class="head1"src="imgs/super_head.png" alt="" />
+                   </div>
+                   <div class="sp7">
+                       <img src="imgs/chip7.png" alt="" />
+                       <img class="head1"src="imgs/super_head.png" alt="" />
+                   </div>
+                   <div class="sp8">
+                       <img src="imgs/chip8.png" alt="" />
+                       <img class="head1"src="imgs/super_head.png" alt="" />
+                   </div>
+               </div>
+               <!-- //星球-->
+              <div class="planet">
+                  <img src="imgs/star4.png" alt="" />
+                  <img src="imgs/star5.png" alt="">
+                  <img src="imgs/star6.png" alt="">
+                  <img src="imgs/star7.png" alt="">
+                  <img src="imgs/star8.png" alt="">
+                  <img src="imgs/star9.png" alt="">
+                  <img src="imgs/star10.png" alt="">
+                  <img src="imgs/star11.png" alt="">
+              </div>
+            </div>
+            <footer>
+                <div class="">
+                    <p>找齐徐峥 启动能量</p>
+                    <img src="imgs/up.png" alt="" />
+                </div>
+            </footer>
+        </div>
+        <div class="page"id="pages2"style="display:none">
+            <div class="info2">
+                <div class="word">
+                    去往星球的途中，请稍候......
+                </div>
+
+            </div>
+        </div>
+        <div class="page"id="pages3"style="display:none">
+            <div class="info3">
+                <div class="ball">
+                    <img src="imgs/one_pic2.png" alt="">
+                    <img src="imgs/one_pic1.png" alt="">
+                    <img src="imgs/one_pic3.png" alt="">
+                </div>
+                <h3>第一关 水星</h3>
+                <div class="find">
+                    <h1></h1>
+                    <div class="find1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page"id="pages4"style="display:none">
+            <div class="info4">
+                <section class="prue">
+                    <h2></h2>
+                    <div class="gemesp1"></div>
+                    <p>像初恋一样手感的双2.5D的弧面玻璃</p>
+                </section>
+                <section class="prue1"style="display:none">
+                    <div class="main">
+                        <h1>很遗憾</h1>
+                        <p>你没有找齐徐峥的8个分身看来他要一直囧在宇宙太阳系了</p>
+                        <div class="btns">
+                            <span class="span1">再试一次</span><br>
+                            <span>游戏说明</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="page"id="pages5"style="display:none">
+            <div class="info5">
+                <div class="ball">
+                    <img src="imgs/one_pic2.png" alt="">
+                    <img src="imgs/one_pic1.png" alt="">
+                    <img src="imgs/one_pic3.png" alt="">
+                </div>
+                <div class="text1">
+                    <p>旺徳福</p>
+                    <p>你已集齐徐峥分身</p>
+                    <p>vivo X5pro碎片开始合体</p>
+                    <p>合体中</p>
+                    <p>...</p>
+                </div>
+
+                <div class="heti">
+                        <div class="heti1 hetis">
+                            <img src="imgs/chip1.png" alt="" />
+                            <p class="p1">Funtouch OS系统</p>
+                        </div>
+                        <div class="heti2 hetis">
+                            <img src="imgs/chip2.png" alt="" />
+                            <p class="p2">双2.50弧面玻璃</p>
+                        </div>
+                         <div class="heti3 hetis">
+                            <img src="imgs/chip3.png" alt="" />
+                            <p class="p3">知性美颜系统</p>
+                        </div>
+                        <div class="heti4 hetis">
+                            <img src="imgs/chip4.png" alt="" />
+                            <p class="p4">眼球识别加密系统</p>
+                        </div>
+                        <div class="heti5 hetis">
+                            <img src="imgs/chip5.png" alt="" />
+                            <p class="p5">1300万像素镜头</p>
+                        </div>
+                        <div class="heti6 hetis">
+                            <img src="imgs/chip6.png" alt="" />
+                            <p class="p6">Hi-Fi音质播放</p>
+                        </div>
+                        <div class="heti7 hetis">
+                            <img src="imgs/chip7.png" alt="" />
+                            <p class="p7"> 八核1.7GHz处理器</p>
+                        </div>
+                        <div class="heti8 hetis">
+                            <img src="imgs/chip8.png" alt="" />
+                            <p class="p8">PDAF快速相位对焦系统</p>
+                        </div>
+                    </div>
+                <div class="hetisucc"style="display:none">
+                    <img src="imgs/vivo_mobile.png" alt="" />
+                    <div class="hetisucc_text">
+                        <p>合体成功</p>
+                        <p>距离启动神秘力量</p>
+                        <p>还差最后一步</p>
+                        <p>请点击......</p>
+                        <span class="check">开始抽奖</span>
+                        <span class="mas">游戏说明</span>
+                    </div>
+                </div>
+                <section class="loose"style="display:none">
+                    <div class="main">
+                        <h1>很遗憾</h1>
+                        <p>你没有抽中奖品,再玩一次吧</p>
+                        <div class="btns">
+                            <span class="span1">返回游戏</span><br>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="page"id="pages6"style="display:none">
+            <div class="info6">
+                <h3>找徐峥送vivo</h3>
+                <img src="imgs/game_info_bt.png" alt="">
+                <div class="gametext">
+                    <div class="scroll">
+                        <h4>游戏规则：</h4>
+                            <p>1.玩家要在规定时间内，依次从2*2至7*7的方格中找徐峥。点对徐峥，即可过关。</p>
+                            <p>2.每找到一个徐峥，得到一个vivo手机“碎片”。集齐8块“碎片”，即获得一次抽奖机会。</p>
+                            <p>3.中奖玩家请正确填写信息。信息填写错误或未填写的玩家将被取消中奖资格。</p>
+                            <p>4.每个ID只有一次中奖机会。</p>
+                            <p>5.恶意刷奖的玩家一经发现将取消抽奖资格。</p>
+                            <h4>活动时间：</h4>
+                            <p>2015年9月28至10月2日</p>
+                            <h4>游戏奖励：</h4>
+                            <p>一等奖：vivo X5Pro智能手机 2台</p>
+                            <p>二等奖：vivo充电宝 10个</p>
+                            <p>三等奖：vivo耳机 20个</p>
+                            <p>四等奖：《港囧》电影票20套（每套2张）</p>
+                            <p>五等奖：《港囧》主创签名剧照 50张</p>
+                            <p>六等奖：vivo官方旗舰店100元代金券 20张</p>
+                            <p>注：电影票为格瓦拉兑换券，中奖玩家请自行兑换</p>
+                    </div>
+                </div>
+
+                   </div>
+
+            </div>
+        </div>
+        <div class="page"id="pages7"style="display:none">
+            <div class="draw">
+                   <h2>恭喜你获得</h2>
+                   <p>vivo X5pro一台</p>
+                   <span class="nameinput">姓名<input type="text"></span>
+                   <span class="phoninput">手机号码<input type="text"></span>
+                   <strong>提交信息</strong>
+            </div>
+        </div>
+    </div>
+    </body>
+    <script src="js/jquery-2.2.3.min.js" charset="utf-8"></script>
+    <script src="js/index.js" charset="utf-8"></script>
+    <script src="js/iscroll.js" charset="utf-8"></script>
+</html>
